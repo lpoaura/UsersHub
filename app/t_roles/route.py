@@ -71,7 +71,7 @@ def users():
     ]  # noqa
     filters = [
         {"col": "groupe", "filter": "False"},
-        {"col":"active", "filter":'True'}
+        {"col": "active", "filter": "True"},
     ]
     contents = TRoles.get_all(columns, filters, order_by="identifiant", order="asc")
     tab = []
